@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    padding: 25px 0px;
+    align-items: center;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+button{
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+.black-button{
+    background-color: #030305;
+    display: block;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.title{
+    font-weight: 700;
+    font-size: 60px;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.main-header__container{
+    display: flex;
+    gap: 244px;
+    padding: 25px 0px;
+    align-items: center;
+}
+.main-header__link{
+    font-weight: 400;
+    font-size: 15px;
+    color: #030305;
+}
+.main-header__list{
+    display: flex;
+    gap: 115px;
+}
+.main-header{
+    border-bottom: 1px solid #E5E5E5;
+}
+.first-screen{
+    background:url(image/background.png) no-repeat center center;
+    padding-top: 104px;
+    padding-bottom: 154px;
+}
+.first-screen__title{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.first-screen__text{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 502px;
+}
+.product__list{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 40px 24px;
+}
+.products{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.first-screen__link{
+    max-width: 334px;
+}
+.product__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.product__descriptions{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.description__image{
+    margin-bottom: 11px;
+}
+.description__text{
+    margin-bottom: 13px;
+}
+.description__title{
+    margin-bottom: 5px;
+}
+.reservation__title{
+    margin-bottom: 20px;
+}
+.reservation__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 60px;
+    color: #5D5D5F;
+}
+.reservation__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 344px;
+}
+.reservation__input{
+    padding: 22px 18px;
+    margin-bottom: 15px;
+}
+.reservation__image{
+    position: absolute;
+    right: -150px;
+    bottom: 0px;
+}
+.reservation{
+    position: relative;
+    padding-bottom: 121px;
+}
+.main-footer{
+    border-top: 1px solid #E5E5E5;
+}
+.main-footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
